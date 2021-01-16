@@ -162,7 +162,7 @@ class XmasTree:
 		for i, g, r, b in newColors:
 			self.pixels[i] = [g, r, b]
 
-		pixels.show()
+		self.pixels.show()
 #---------------------------------------------------------------#
 
 	'''
